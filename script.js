@@ -21,7 +21,7 @@ function showMessage(response) {
 
     // Update text content and hide name message
     document.getElementById("question").textContent =
-      "Вы разибил мне сердце! Я плачу..";
+      "Вы разибил мне сердце! Я плачу..(эта кнопка для визуала)";
     document.getElementById("name").style.display = "none";
 
     // Optional: You can also add a timeout to reset the position after a few seconds
